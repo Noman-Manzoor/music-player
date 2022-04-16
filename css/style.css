@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: rgb(235, 227, 227);
+}
+
+.navbar {
+    background-color: #0c0cedc9;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style-type: none;
+    margin: 0 30px;
+    font-size: 1.3rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    opacity: 0.8;
+}
+
+.logo img {
+    filter: invert(100%);
+    width: 43px;
+    /* margin-bottom: 10px; */
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.logo p {
+    font-size: 1.5rem;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    width: 70vw;
+    margin: 20px auto;
+    background: url('../images/bg.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#primaryHeading {
+    margin: 2rem 3rem;
+    font-size: 2.5rem;
+}
+
+.songItemContainer {
+    margin: 20px 30px;
+}
+
+.songItem {
+    margin: 10px 0;
+    /* border: 2px solid red; */
+    background: white;
+    color: black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+
+.songItem img {
+    margin: 10px 20px;
+    height: 30px;
+    border: 350px;
+}
+
+.timeStamp {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.timeStamp i {
+    cursor: pointer;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 6rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* display: none; */
+}
+
+.bottom input {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.songInformation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 7vw;
+    top: 2rem;
+}
+
+.songInformation img {
+    width: 7rem;
+    height: 3.9rem;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#controlVolume input {
+    position: absolute;
+    right: 18rem;
+    top: 3.5rem;
+    width: 18vw;
+}
+
+#volume {
+    opacity: 0;
+}
+
+.audioControlIcons {
+    position: absolute;
+    right: 9.5vw;
+    /* left: 7vw; */
+    top: 3rem;
+    cursor: pointer;
+}
+
+#unmute {
+    display: none;
+}
+
+#mute {
+    display: none;
+}
+
+#crossSign {
+    position: absolute;
+    top: 0.8rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
+
+/* styling and positioning the hamburger */
+
+.hamburger {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 13px;
+    right: 25px;
+    /* display: none; */
+    opacity: 0;
+}
+
+.line {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0cedc9;
+    padding: 2rem;
+    color: white;
+    font-size: 1rem;
+}

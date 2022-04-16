@@ -1,0 +1,150 @@
+@media screen and (max-width: 1190px) {
+    #controlVolume input {
+        position: absolute;
+        right: 16rem;
+        top: 3.5rem;
+        width: 16vw;
+    }
+    .menu li a {
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 10px;
+    }
+    .songName {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .songItem img {
+        margin: 10px 10px;
+        height: 20px;
+        width: 30px;
+    }
+    .icons {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .songItem {
+        margin: 10px 0;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    .songItem {
+        margin: 10px 0;
+        width: 95%;
+    }
+    .icons {
+        margin-top: 7px;
+    }
+    .songInformation {
+        top: 5px;
+    }
+    #songname {
+        font-size: medium;
+    }
+    .bottom {
+        padding-top: 65px;
+        padding-bottom: 40px;
+    }
+    .audioControlIcons {
+        right: 10vw;
+        top: 6.5rem;
+    }
+    #controlVolume input {
+        left: 14vw;
+        top: 6.8rem;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #primaryHeading {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .logo {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(10, 10, 10, 0.938);
+        width: 100%;
+        top: 63px;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+    }
+    .menu li {
+        margin: 20px;
+    }
+    .menu li {
+        font-weight: bold;
+    }
+    .hamburger {
+        opacity: 1;
+    }
+    .songItem {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .songItemContainer {
+        margin: 20px 0;
+    }
+    .container {
+        padding: 10px;
+        width: 90vw;
+    }
+    .songName {
+        text-align: center;
+        /* font-weight: lighter; */
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .songInformation {
+        margin-top: 18px;
+    }
+    .songItem {
+        height: 40px;
+    }
+    #songname {
+        text-align: center;
+    }
+    .songName {
+        margin-left: 10px;
+    }
+    .songItem img {
+        display: none;
+    }
+    #controlVolume input {
+        left: 11vw;
+        top: 5rem;
+        width: 60px;
+    }
+    .audioControlIcons {
+        right: 10vw;
+        top: 7.7rem;
+    }
+    .bottom input {
+        margin-top: 30px;
+    }
+    .logo img {
+        width: 40px;
+        padding-left: 0;
+    }
+    .logo {
+        margin-left: 5px;
+    }
+}
